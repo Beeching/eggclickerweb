@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Eggs Eggs Eggs</title>
+    <title>Unity WebGL Player | Egg Clicker</title>
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" width=1080 height=1080 tabindex="-1" style="width: 1080px; height: 1080px; background: #231F20"></canvas>
-    <script src="Build/egg clicker webgl.loader.js"></script>
+    <script src="Build/eggclicker.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -25,9 +25,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/egg clicker webgl.data",
-        frameworkUrl: "Build/egg clicker webgl.framework.js",
-        codeUrl: "Build/egg clicker webgl.wasm",
+        dataUrl: "Build/eggclicker.data",
+        frameworkUrl: "Build/eggclicker.framework.js",
+        codeUrl: "Build/eggclicker.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "The Egg Company",
         productName: "Egg Clicker",
